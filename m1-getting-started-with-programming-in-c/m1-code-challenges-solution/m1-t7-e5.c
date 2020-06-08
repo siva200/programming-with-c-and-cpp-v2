@@ -13,7 +13,7 @@ int main() {
     float radius, area;
 
     puts("Enter the radius of the circle in centimetre: ");
-    scanf("%f", &radius);
+    scanf("%.1f", &radius);
 
     puts("\nCalculating radius...");
     usleep(500000);

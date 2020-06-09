@@ -31,6 +31,8 @@ int main() {
             break;
         default:
             puts("Invalid grade.");
+         default:
+            puts("invalid grade.");
     }
 
     return 0;

@@ -1,10 +1,10 @@
- /*
+/*
  Author:    Internshala
  Module:    Getting Started with Programming in C
- Topic:        Code Challenge
+ Topic:     Code Challenge
 */
 
-#include <stdio.h>
+#include<stdio.h>
 
 
 int main() {
@@ -18,13 +18,13 @@ int main() {
     puts("Enter second number: ");
     scanf("%d", &y);
 
-    printf("\nBefore Swapping\nFirst number = %d\nSecond number = %d\n\n", x, y);
+    printf("\nBefore Swapping \nFirst number = %d \nSecond number = %d \n \n", x, y);
 
     t = x;
     x = y;
     y = t;
 
-    printf("After Swapping\nFirst number = %d\nSecond number = %d\n", x, y);
+    printf("After Swapping \nFirst number = %d \nSecond number = %d \n", x, y);
 
     return 0;
 }

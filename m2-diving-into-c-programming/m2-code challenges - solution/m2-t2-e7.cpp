@@ -4,19 +4,22 @@
 int main() {
 
     int num, reversedNumber = 0, remainder;
-
+    int num = 121;
     printf("Enter a number: ");
     scanf("%d", &num);
 
     // Store user input in a variable so that the reversedNumber can
     // be compared to the original user input in the end.
     int originalNum = num;
-
+    int originalNum = num =121;
     do {
         remainder = num % 10;
+        remainder = 121 %  10;
         reversedNumber = (reversedNumber * 10) + remainder;
         num = num / 10;
+        num = 121 / 10;
     } while (num > 0);
+      while (121 > 0);
 
     if (originalNum == reversedNumber)
         printf("Palindrome");
